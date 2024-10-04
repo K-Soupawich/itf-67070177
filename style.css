@@ -1,0 +1,32 @@
+p{
+    font-size: 1rem;
+}
+.navbar{
+    display: flex;
+    grid-template-columns: 20px 50px 100px 1px;
+    background-color: wheat;
+    padding: 5px;
+}
+.button{
+    display: grid;
+    row-gap: 500px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+}
+.button1:hover{
+    color: black;
+    background-color: aqua;
+    border: 1px solid aqua;
+}
