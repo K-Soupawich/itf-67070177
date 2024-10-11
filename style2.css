@@ -1,0 +1,55 @@
+.profile{
+    width: 183px;
+    height: 183px;
+    /*background-image: url(https://i.kym-cdn.com/entries/icons/original/000/043/403/cover3.jpg);*/
+    background-image: url(https://media.tenor.com/images/027585691d83244507d54af1af1b19f2/tenor.gif);
+    border-radius: 100%;
+    background-size: cover;
+    position: relative;
+}
+.notify{
+    width: 35px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 7px;
+    right: 0%;
+}
+#user{
+    font-weight: bold;
+    text-decoration: none !important;
+    color: black;
+}
+#user:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border-color: rgb(102, 102, 102);
+}
+td{
+    width: auto;
+    border: 1px solid;
+}
+th{
+    background-color: rgb(216, 216, 216);
+    border: 1px solid;
+    width: auto;
+}
+table{
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid;
+    width: 80%;
+    border-collapse: collapse;
+}
